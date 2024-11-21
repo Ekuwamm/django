@@ -1,0 +1,125 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.nav{
+
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nav ul li{
+    height: 100px;
+
+}
+
+.nav ul li:first-child{
+    margin-right: auto;
+    
+}
+
+.nav ul li:first-child:hover a{
+    background-color: white;
+    text-decoration:none;
+    
+}
+
+.nav ul li:first-child a{
+    font-size: 35px;
+    font-weight: bold;
+    color:teal;
+}
+
+
+.nav ul li a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 40px;
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+}
+
+.nav ul li a:hover{
+    
+    background-color:mediumaquamarine;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.mainpage{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+   
+}
+
+.registerone{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 20ppx;
+    margin-right: 200px;
+}
+
+
+
+.gratiaform{
+    margin-top: 100px;
+    display: grid;
+    place-content: center;
+    line-height: 30px;
+    border: 1px solid black;
+    margin-left: 600px;
+    margin-right: 600px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: cadetblue;
+    color: black;
+    
+}
+.forms{
+    font-size: 20px;
+    
+}
+
+.forms input{
+    width: 300px;
+    height: 30px;
+    padding: 10px 0;
+    font-size: 20px;
+    
+}
+
+.forms button{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+
+}

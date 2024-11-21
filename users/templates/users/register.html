@@ -1,0 +1,18 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+        Register
+{% endblock  %}
+
+{% block content %}
+
+        <section class="gratiaform">
+
+            <form class="forms" action="/users/register/" method="post">
+                {% csrf_token %}
+                {{form }}
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+{% endblock  %}
